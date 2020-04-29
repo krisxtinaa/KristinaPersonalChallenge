@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal challenge</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"> Suicide Data Visualization </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#description">DESCRIPTION</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="visualization.html">VISUALIZATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#social-media">CONTACT ME</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+    <!---------------------------------Banner section-------------------------------------->
+
+        <section id = "banner">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-md-6">
+                        <p class = "main-title">PERSONAL CHALLENGE: STORYTELLING WITH DATA</p>
+                        <p>Kristina Krasteva - Applied Data Science B</p>
+                    </div>
+                    <div class = "col-md-6 text-center">
+                        <img src = "img/banner.svg" class = "img-banner">
+                    </div>
+                </div>
+            </div>
+            <img src="img/wave.png" class = "img-wave">
+        </section>
+
+    <!---------------------------------Description section-------------------------------------->
+
+        <section id="description">
+            <div class="container text-center">
+                <h1 class="title"> DESCRIPTION </h1>
+                <div class="row text-center">
+                    <div class = "col-md-4 description">
+                        <img src="img/sdg3.png" class ="img-description">
+                        <h4>SDG GOAL 3</h4>
+                        <p>
+                            I chose this rather sensitive and complicated topic influenced by the fact that 
+                            “Suicide remains the second-highest cause of death among people aged 15 to 29 globally,
+                            with 79 per cent of suicides found in low- and middle-income countries in 2016". According to 
+                            the World Health Organization almost 800,000 people die from suicide every year. That’s one 
+                            person every 40 seconds. 
+                        </p>
+                    </div>
+
+                    <div class = "col-md-4 description">
+                        <img src="img/data.svg" class="img-description" height="100" width="100"/>
+                        <h4>THE DATASET</h4>
+                        <p>
+                           The dataset that I have chosen for the challenge is “Suicide Rates Overview 1985 to 2016” 
+                           from <a href="https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016" target="_blank">Kaggle</a>.
+                          
+                        </p>
+                    </div>
+
+                    <div class = "col-md-4 description">
+                        <img src="img/smile.svg" class = "img-description" height="100" width="100">
+                        <h4>My Goal</h4>
+                        <p>
+                            By creating such visualizations, I hope to contribute to make the society more well-informed. 
+                            Health is not only about medicine and medical resources, but it is important to acknowledge that in order 
+                            to achieve universal health coverage and sustainable financing for health, we have to address the growing
+                            numbers of non-communicable diseases, including mental health.
+                        </p>
+                    </div>
+                </div>
+                <button type = "button" class = "btn btn-primary"> THE VISUALIZATIONS </button>
+            </div>
+        </section>
+
+    <!---------------------------------Social media section-------------------------------------->    
+        <section id="social-media">
+            <div class="container text-center">
+                <p>CONTACT ME</p>
+                <div class="social-icons">
+                    <a href="https://github.com/krisxtinaa" target="_blank"><img src="img/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/kristina-krasteva-68a470186/" target="_blank"><img src="img/linkedin.png"></a>
+                    <a href="https://www.facebook.com/kristinavalentinovaa" target="_blank"><img src="img/facebook.png"></a>
+                    <a href="https://www.instagram.com/krisxtinaa/" target="_blank"><img src="img/instagram.png"></a>
+                </div>
+            </div>
+        </section>
+
+    <!---------------------------------Footer section-------------------------------------->    
+
+    <section id="footer">
+        <img src ="img/wave2.png" class="img-footer">
+        <p class="copyright"> Website created by Kristina Krasteva</p>
+    </section>
+
+    <!---------------------------------Footer section-------------------------------------->  
+        <script src="smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+    </body>
+</html>
