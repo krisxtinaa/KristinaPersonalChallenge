@@ -162,25 +162,26 @@ body
 }
 
 /*----SOCIAL MEDIA SECTION----*/
-#social-media
+#contact
 {
+    background: #fff;
     padding: 100px 0;
 }
 
-#social-media p 
+#contact p 
 {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
-.social-icons img 
+.icons img 
 {
     width: 60px;
     transition: 0.5s;
 }
 
-.social-icons a:hover img
+.icons a:hover img
 {
     transform: translateY(-10px);
 }
@@ -195,6 +196,18 @@ body
 .img-footer
 {
     width: 100%;
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 .copyright 
